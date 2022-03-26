@@ -1,0 +1,34 @@
+import bs4
+import requests
+
+class ReviewsParser:
+    PAGE_LIMIT = 10
+
+    def __init__(self):
+        self.session = requests.Session()
+        self.session.headers = {
+            'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.2 Safari/605.1.15',
+            'Accept-Language': 'ru',
+        }
+        self.task = None
+
+    def get_page(self, page: int = None):
+        params = {
+            'radius': 0,
+            'user': 1,
+        }
+        if page and page > 1:
+            params['p'] = page
+
+        url = self.task.url
+        r = self.session.get(url, params=params)
+        r.raise_for_status()
+        return r.text
+     def get_blocks(self, page: int = None):
+        text = self.get_page(page=page)
+        soup = bs4.BeautifulSoup(text, 'lxml')
+
+        # Запрос CSS-селектора, состоящего из множества классов, производится через select
+        container = soup.select('div.item.item_table.clearfix.js-catalog-item-enum.item-with-contact.js-item-extended')
+        for item in container:
+            self.parse_block(item=item)
