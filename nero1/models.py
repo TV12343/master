@@ -29,13 +29,13 @@ class ReviewsZoon(models.Model):
             verbose_name_plural = 'Отзывы Zoon'
 
 class ReviewsYoll(models.Model):
-    name1 =  models.TextField(
+    name2 =  models.TextField(
         verbose_name='Имя',
     )
-    review1 =  models.TextField(
+    review2 =  models.TextField(
         verbose_name='Отзыв',
     )
-    date1 =  models.TextField(
+    date2 =  models.TextField(
         verbose_name='Дата',
     )
 
