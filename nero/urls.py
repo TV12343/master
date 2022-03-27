@@ -19,3 +19,7 @@ from django.urls import path
 urlpatterns = [
     path('admin/', admin.site.urls),
 ]
+#urlpatterns1 = [
+#    url(r'^custom_model_action/(?P<object_pk>\d+)/$',
+#        core_views.custom_model_action, name='custom-model-action')
+#]
