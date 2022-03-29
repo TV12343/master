@@ -11,7 +11,7 @@ class Reviews(models.Model):
         verbose_name='Дата',
     )
     class Meta:
-            verbose_name = 'Отзыв'
+            verbose_name = 'Отзывы Yandex'
             verbose_name_plural = 'Отзывы Yandex'
 
 class ReviewsZoon(models.Model):
@@ -25,7 +25,7 @@ class ReviewsZoon(models.Model):
         verbose_name='Дата',
     )
     class Meta:
-            verbose_name = 'Отзыв'
+            verbose_name = 'Отзывы Zoon'
             verbose_name_plural = 'Отзывы Zoon'
 
 class ReviewsYoll(models.Model):
@@ -38,7 +38,11 @@ class ReviewsYoll(models.Model):
     date2 =  models.TextField(
         verbose_name='Дата',
     )
-
+    rating2 =  models.TextField(
+        verbose_name='Рейтинг',
+    )
     class Meta:
-        verbose_name = 'Отзыв'
+        verbose_name = 'Отзывы Yoll'
         verbose_name_plural = 'Отзывы Yoll'
+
+

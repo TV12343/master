@@ -24,6 +24,7 @@ class ReviewsForm(forms.ModelForm):
              'name2',
              'review2',
              'date2',
+             'rating2',
         )
         widgets = {
             'title': forms.TextInput,

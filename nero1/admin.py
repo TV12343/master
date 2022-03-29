@@ -17,5 +17,5 @@ class ReviewsZoonAdmin(admin.ModelAdmin):
 
 @admin.register(ReviewsYoll)
 class ReviewsYollAdmin(admin.ModelAdmin):
-    list_display = ('name2', 'review2', 'date2')
+    list_display = ('name2', 'review2', 'date2', 'rating2')
     form = ReviewsForm
