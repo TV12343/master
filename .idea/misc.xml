@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_17" project-jdk-name="Python 3.8" project-jdk-type="Python SDK">
+    <output url="file://$PROJECT_DIR$/out" />
+  </component>
+  <component name="UnattendedHostPersistenceState">
+    <option name="openedFilesInfos">
+      <list>
+        <OpenedFileInfo>
+          <option name="caretOffset" value="690" />
+          <option name="fileUrl" value="file://$PROJECT_DIR$/nero/urls.py" />
+        </OpenedFileInfo>
+        <OpenedFileInfo>
+          <option name="caretOffset" value="140" />
+          <option name="fileUrl" value="file://$PROJECT_DIR$/nero1/apps.py" />
+        </OpenedFileInfo>
+        <OpenedFileInfo>
+          <option name="caretOffset" value="614" />
+          <option name="fileUrl" value="file://$PROJECT_DIR$/nero1/models.py" />
+        </OpenedFileInfo>
+        <OpenedFileInfo>
+          <option name="caretOffset" value="286" />
+          <option name="fileUrl" value="file://$PROJECT_DIR$/nero1/forms.py" />
+        </OpenedFileInfo>
+        <OpenedFileInfo>
+          <option name="caretOffset" value="434" />
+          <option name="fileUrl" value="file://$PROJECT_DIR$/nero1/admin.py" />
+        </OpenedFileInfo>
+        <OpenedFileInfo>
+          <option name="caretOffset" value="605" />
+          <option name="fileUrl" value="file://$PROJECT_DIR$/nero1/management/commands/debug.py" />
+        </OpenedFileInfo>
+        <OpenedFileInfo>
+          <option name="caretOffset" value="5701" />
+          <option name="fileUrl" value="file://$PROJECT_DIR$/nero1/management/commands/parser.py" />
+        </OpenedFileInfo>
+        <OpenedFileInfo>
+          <option name="caretOffset" value="510" />
+          <option name="fileUrl" value="file://$PROJECT_DIR$/nero/settings.py" />
+        </OpenedFileInfo>
+        <OpenedFileInfo>
+          <option name="fileUrl" value="mock:///Diff" />
+        </OpenedFileInfo>
+      </list>
+    </option>
+  </component>
+</project>
